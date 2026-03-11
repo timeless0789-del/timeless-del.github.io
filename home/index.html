@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Purple's cool about page</title>
+</head><body>
+  <img src="purpel.png" alt="purple" class="purple-image">
+    <style>
+      body {
+        margin: 0;
+        height: 100vh;
+        background-image: url("pattern2.png");
+        background-repeat: repeat;
+        background-size: 40px 40px;
+        background-attachment: fixed;
+        background-position: 0 0;
+        animation: scrollPattern 10s linear infinite;
+      }
+      
+      @keyframes scrollPattern {
+        0% {
+          background-position: -300px -200px;
+        }
+        100% {
+          background-position: 300px 200px;
+        }
+      }
+    </style>
+</body>
+  <style>
+    .purplesdescription { 
+      width: 40%;
+      position: relative;
+      right: 20%;
+      top: 20%;
+      margin: 50px auto;
+      padding: 20px;
+      background-color: rgba(0, 21, 71, 1);
+      border-radius: 7px;
+      font-family: "Comic Sans MS", cursive, sans-serif;
+      outline: 1px solid rgb(255, 255, 255);
+      outline-offset: -3px;  
+    }
+    .white-text {
+      color: white;
+    }
+    .purple-image {
+      position: absolute;
+      top: 50%;
+      left: 80%;
+      transform: translate(-50%, -50%);
+      width: 40%;
+      height: auto;
+    }
+    </style>
+    </head>
+<body>
+  <div class="purplesdescription">
+    <p class="white-text">Howdy, its me! Eden Purple!</p>
+    <p class="white-text">that image on the right is just a placeholder. will be changed.</p>
+    <p class="white-text">this website is undercontruction cause my school lied about tomorrow having no school after giving us an exam and in the mean time, you can check out <a href="https://thepurple.straw.page/" target="_blank" rel="noopener noreferrer">this other website i have!</a></p>
+  </div>
+</body>
+</html>
